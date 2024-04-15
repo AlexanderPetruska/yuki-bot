@@ -83,18 +83,28 @@ const NavBar = () => {
               <Link
                 href="/commands"
                 className="block text-right hover:text-primary"
+                onClick={toggleNavbar}
               >
                 Commands
               </Link>
-              <Link href="/" className="block text-right hover:text-primary">
+              <Link
+                href="/"
+                className="block text-right hover:text-primary"
+                onClick={toggleNavbar}
+              >
                 Developers
               </Link>
-              <Link href="/" className="block text-right hover:text-primary">
+              <Link
+                href="/"
+                className="block text-right hover:text-primary"
+                onClick={toggleNavbar}
+              >
                 Support
               </Link>
               <Link
                 href="/"
                 className="flex justify-end text-right text-primary hover:text-white"
+                onClick={toggleNavbar}
               >
                 <div className="justify-cente flex items-center">
                   <BsStars className="mr-1" />
@@ -102,6 +112,7 @@ const NavBar = () => {
                 </div>
               </Link>
               <Link
+                onClick={toggleNavbar}
                 target="_blank"
                 href="https://discord.com/oauth2/authorize?client_id=635558005382971462"
                 className="ml-12 block text-center"

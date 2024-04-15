@@ -80,7 +80,10 @@ const NavBar = () => {
                   <RxCross1 size={30} />
                 </Button>
               </div>
-              <Link href="/" className="block text-right hover:text-primary">
+              <Link
+                href="/commands"
+                className="block text-right hover:text-primary"
+              >
                 Commands
               </Link>
               <Link href="/" className="block text-right hover:text-primary">

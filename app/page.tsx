@@ -21,7 +21,7 @@ export default function Home() {
             <br /> Discord Bot
             <span className="text-primary"> Yuki </span>
           </h1>
-          <p className="mx-auto w-96 flex-wrap text-center text-sm font-extralight md:mx-0 md:w-full md:text-left md:text-xl">
+          <p className="mx-auto flex-wrap text-center text-sm font-extralight md:mx-0 md:w-full md:text-left md:text-xl">
             Enhance your Discord experience by enjoying your favorite music with
             Yuki!
           </p>

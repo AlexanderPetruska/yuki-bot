@@ -17,8 +17,8 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="container bg-background">
-      <div className="mx-auto max-w-7xl px-4 sm:px-4 lg:px-8">
+    <nav className="container z-20 bg-background">
+      <div className="mx-auto max-w-6xl px-2 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex items-center">
             <div className="flex-shirnk-0">
@@ -36,17 +36,17 @@ const NavBar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-8">
-              <Link href="/" className="hover:text-primary">
+              <Link href="/commands" className="hover:text-primary">
                 Commands
               </Link>
-              <Link href="/" className="hover:text-primary">
-                Developers
+              <Link href="/team" className="hover:text-primary">
+                Team
               </Link>
-              <Link href="/" className="hover:text-primary">
+              <Link href="/support" className="hover:text-primary">
                 Support
               </Link>
               <Link
-                href="/"
+                href="/donate" // TODO: Link with 3rd party
                 className="flex flex-row items-center text-primary hover:text-white"
               >
                 <BsStars className="mr-1" />
@@ -94,21 +94,21 @@ const NavBar = () => {
                 Commands
               </Link>
               <Link
-                href="/"
+                href="/team"
                 className="block text-right hover:text-primary"
                 onClick={toggleNavbar}
               >
-                Developers
+                Team
               </Link>
               <Link
-                href="/"
+                href="/support"
                 className="block text-right hover:text-primary"
                 onClick={toggleNavbar}
               >
                 Support
               </Link>
               <Link
-                href="/"
+                href="/donate" //TODO: Link with 3rd party
                 className="flex justify-end text-right text-primary hover:text-white"
                 onClick={toggleNavbar}
               >

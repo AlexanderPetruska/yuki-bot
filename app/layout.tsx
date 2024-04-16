@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex h-screen flex-col gap-7 md:gap-14">
+        <div className="flex h-dvh flex-col gap-7 md:h-svh md:gap-14">
           <NavBar />
           <div className="flex-1">{children}</div>
           <Footer />

@@ -3,10 +3,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="container mx-auto flex h-screen max-h-screen max-w-6xl flex-col justify-between gap-5 md:flex-row">
+    <main className="container mx-auto flex h-full max-w-6xl flex-col justify-between gap-5 md:flex-row">
       <div className="mx-auto flex max-w-xl flex-1 flex-col items-center justify-center gap-5">
         <div>
-          <h1 className="mb-4 text-5xl font-bold">
+          <h1 className="mb-4 text-5xl font-bold leading-snug">
             Best Trending Music Discord Bot
             <span className="text-primary"> Yuki </span>
           </h1>

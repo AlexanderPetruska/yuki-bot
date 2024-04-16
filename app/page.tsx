@@ -16,9 +16,8 @@ export default function Home() {
           />
         </div>
         <div className="flex w-full flex-1 flex-col md:items-start">
-          <h1 className="mb-4 text-center text-3xl font-bold leading-snug md:text-left md:text-5xl">
-            Best Trending Music
-            <br /> Discord Bot
+          <h1 className="mx-auto mb-4 max-w-[25rem] text-center text-3xl font-bold leading-snug md:max-w-full md:text-left md:text-5xl">
+            Best Trending Music Discord Bot
             <span className="text-primary"> Yuki </span>
           </h1>
           <p className="mx-auto max-w-80 flex-wrap text-center text-sm font-extralight md:mx-0 md:w-full md:max-w-full md:text-left md:text-xl">

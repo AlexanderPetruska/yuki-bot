@@ -5,19 +5,29 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="container flex h-full max-w-6xl flex-1 flex-col items-center justify-center gap-5 align-middle md:flex-row">
-      <div className="flex flex-1 flex-col items-end justify-center gap-5 align-middle">
-        <div>
-          <h1 className="mb-4 text-5xl font-bold leading-snug">
-            Best Trending Music Discord Bot
+      <div className="container flex flex-1 flex-col items-end justify-center gap-5 align-middle">
+        <div className="flex w-full flex-1 items-center justify-center align-middle">
+          <Image
+            src="/hero.png"
+            alt="Hero Logo"
+            width={320}
+            height={320}
+            className="h-200 w-200 md:hidden"
+          />
+        </div>
+        <div className="flex w-full flex-1 flex-col md:items-start">
+          <h1 className="mb-4 text-center text-4xl font-bold leading-snug sm:text-center md:text-left md:text-5xl">
+            Best Trending Music
+            <br /> Discord Bot
             <span className="text-primary"> Yuki </span>
           </h1>
-          <p className="font-extralight">
-            Enhance your Discord experience by enjoying your favorite music
-            <br /> with Yuki!
+          <p className="mx-auto w-96 text-center font-extralight md:mx-0 md:w-full md:text-left">
+            Enhance your Discord experience by enjoying your favorite music with
+            Yuki!
           </p>
         </div>
         <div className="mx-auto w-full">
-          <div className="flex flex-row justify-start gap-5">
+          <div className="flex flex-row justify-center gap-5 md:justify-start">
             <Link href="https://discord.com/oauth2/authorize?client_id=635558005382971462">
               <Button>Invite to server</Button>
             </Link>
@@ -33,7 +43,7 @@ export default function Home() {
           alt="Hero Logo"
           width={450}
           height={450}
-          className="h-200 w-200"
+          className="h-200 w-200 hidden md:block"
         />
       </div>
     </main>

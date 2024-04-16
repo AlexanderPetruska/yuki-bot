@@ -16,12 +16,12 @@ export default function Home() {
           />
         </div>
         <div className="flex w-full flex-1 flex-col md:items-start">
-          <h1 className="mb-4 text-center text-xl font-bold leading-snug md:text-left md:text-5xl">
+          <h1 className="mb-4 text-center text-2xl font-bold leading-snug md:text-left md:text-5xl">
             Best Trending Music
             <br /> Discord Bot
             <span className="text-primary"> Yuki </span>
           </h1>
-          <p className="mx-auto w-96 text-center text-sm font-extralight md:mx-0 md:w-full md:text-left md:text-xl">
+          <p className="mx-auto w-96 flex-wrap text-center text-sm font-extralight md:mx-0 md:w-full md:text-left md:text-xl">
             Enhance your Discord experience by enjoying your favorite music with
             Yuki!
           </p>

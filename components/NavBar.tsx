@@ -17,7 +17,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="bg-background">
+    <nav className="container bg-background">
       <div className="mx-auto max-w-7xl px-4 sm:px-4 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           <div className="flex items-center">
@@ -36,12 +36,18 @@ const NavBar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-8">
-              <Link href="/">Commands</Link>
-              <Link href="/">Developers</Link>
-              <Link href="/">Support</Link>
+              <Link href="/" className="hover:text-primary">
+                Commands
+              </Link>
+              <Link href="/" className="hover:text-primary">
+                Developers
+              </Link>
+              <Link href="/" className="hover:text-primary">
+                Support
+              </Link>
               <Link
                 href="/"
-                className="flex flex-row items-center text-primary"
+                className="flex flex-row items-center text-primary hover:text-white"
               >
                 <BsStars className="mr-1" />
                 Donate

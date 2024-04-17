@@ -74,7 +74,7 @@ const Terms = () => {
             </p>
           </div>
         </div>
-        <div className="items-left flex w-full flex-col md:align-middle">
+        <div className="items-left mb-10 flex w-full flex-col md:align-middle">
           <h2 className="font-black text-primary md:max-w-2xl">
             Where the data is processed
           </h2>

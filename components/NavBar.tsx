@@ -101,6 +101,7 @@ const NavBar = () => {
               </div>
               <Link
                 href="/commands"
+                rel="noreferrer noopener"
                 className="block text-right hover:text-primary"
                 onClick={toggleNavbar}
               >
@@ -108,20 +109,25 @@ const NavBar = () => {
               </Link>
               <Link
                 href="/team"
+                rel="noreferrer noopener"
                 className="block text-right hover:text-primary"
                 onClick={toggleNavbar}
               >
                 Team
               </Link>
               <Link
-                href="/support"
+                href="https://discord.gg/vwZywKzMZu"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="block text-right hover:text-primary"
                 onClick={toggleNavbar}
               >
                 Support
               </Link>
               <Link
-                href="/donate" //TODO: Link with 3rd party
+                href="https://ko-fi.com/yuki_bote"
+                target="_blank"
+                rel="noreferrer noopener"
                 className="flex justify-end text-right text-primary hover:text-white"
                 onClick={toggleNavbar}
               >

@@ -45,7 +45,12 @@ const NavBar = () => {
               <Link href="/team" className="hover:text-primary">
                 <Button variant="link">Team</Button>
               </Link>
-              <Link href="/support" className="hover:text-primary">
+              <Link
+                href="https://discord.gg/vwZywKzMZu"
+                className="hover:text-primary"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <Button variant="link">Support</Button>
               </Link>
               <Link

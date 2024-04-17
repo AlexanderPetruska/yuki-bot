@@ -5,7 +5,7 @@ const Commands = () => {
         <h1 className="mb-1 text-center text-3xl font-bold">
           Commands List <span className="text-center text-primary">(9)</span>
         </h1>
-        <p className="container mb-10 overflow-auto text-center text-sm font-light text-gray-300">
+        <p className="container mb-10 max-w-80 overflow-auto text-center text-sm font-light text-gray-300 md:max-w-full">
           Here you can find all the commands what you can use!
         </p>
       </div>

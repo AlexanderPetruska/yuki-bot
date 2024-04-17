@@ -2,7 +2,11 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
+const clientId = "635558005382971462";
+
 export default function Home() {
+  const oauthUrl = `https://discord.com/api/oauth2/authorize?client_id=${clientId}&scope=bot`;
+
   return (
     <main className="container flex h-full max-w-6xl flex-1 flex-col items-center justify-center gap-5 align-middle md:flex-row">
       <div className=" flex flex-1 flex-col items-end justify-center gap-5 align-middle">
@@ -27,10 +31,10 @@ export default function Home() {
         </div>
         <div className="mx-auto w-full">
           <div className="flex flex-row justify-center gap-5 md:justify-start">
-            <Link href="https://discord.com/oauth2/authorize?client_id=635558005382971462">
+            <Link target="_blank" rel="noreferrer noopener" href={oauthUrl}>
               <Button>Invite to server</Button>
             </Link>
-            <Link href="/todo">
+            <Link target="_blank" rel="noreferrer noopener" href="/todo">
               <Button variant="outline">Support Server</Button>
             </Link>
           </div>

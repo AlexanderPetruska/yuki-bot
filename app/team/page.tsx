@@ -28,7 +28,11 @@ const Team = () => {
             <h2 className="font-bold md:font-black">iNy &lt;3</h2>
             <p className="text-xs font-light md:text-sm">Founder & Developer</p>
             <div className="flex flex-row md:justify-center">
-              <Link href="https://discord.com/users/256016352291061760">
+              <Link
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://discord.com/users/256016352291061760"
+              >
                 <FaDiscord className="h-6 w-6" size={0} />
               </Link>
             </div>
@@ -72,7 +76,11 @@ const Team = () => {
             <h2 className="font-bold md:font-black">TheCodingGuy</h2>
             <p className="text-xs font-light md:text-sm">Developer</p>
             <div className="flex flex-row md:justify-center">
-              <Link href="/LINK TO DISCORD">
+              <Link
+                target="_blank"
+                rel="noreferrer noopener"
+                href="/LINK TO DISCORD"
+              >
                 <FaDiscord className="h-6 w-6" size={0} />
               </Link>
             </div>

@@ -9,8 +9,11 @@ import { BsStars } from "react-icons/bs";
 import { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 
+const clientId = "635558005382971462";
+
 const NavBar = () => {
   const [isClicked, setIsClicked] = useState<boolean>(false);
+  const oauthUrl = `https://discord.com/api/oauth2/authorize?client_id=${clientId}&scope=bot`;
 
   const toggleNavbar = () => {
     setIsClicked(!isClicked);
@@ -57,7 +60,8 @@ const NavBar = () => {
           <div className="flex flex-row gap-2">
             <Link
               target="_blank"
-              href="https://discord.com/oauth2/authorize?client_id=635558005382971462"
+              rel="noreferrer noopener"
+              href={oauthUrl}
               className="hidden md:block"
             >
               <Button variant="outline">
@@ -120,7 +124,8 @@ const NavBar = () => {
               <Link
                 onClick={toggleNavbar}
                 target="_blank"
-                href="https://discord.com/oauth2/authorize?client_id=635558005382971462"
+                rel="noreferrer noopener"
+                href={oauthUrl}
                 className="ml-12 block text-center"
               >
                 <Button variant="outline">

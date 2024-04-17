@@ -54,7 +54,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <div className="flex h-28 w-full max-w-72 flex-row items-center justify-start gap-6 rounded-xl bg-card p-5 md:h-64 md:w-52 md:flex-col md:rounded-3xl">
+        <div className="mb-10 flex h-28 w-full max-w-72 flex-row items-center justify-start gap-6 rounded-xl bg-card p-5 md:h-64 md:w-52 md:flex-col md:rounded-3xl">
           <div className="flex justify-center align-top">
             <Image
               src="/logo.png"

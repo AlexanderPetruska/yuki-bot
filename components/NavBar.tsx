@@ -40,20 +40,22 @@ const NavBar = () => {
           <div className="hidden md:block">
             <div className="ml-4 flex items-center space-x-8">
               <Link href="/commands" className="hover:text-primary">
-                Commands
+                <Button variant="link">Commands</Button>
               </Link>
               <Link href="/team" className="hover:text-primary">
-                Team
+                <Button variant="link">Team</Button>
               </Link>
               <Link href="/support" className="hover:text-primary">
-                Support
+                <Button variant="link">Support</Button>
               </Link>
               <Link
                 href="/donate" // TODO: Link with 3rd party
                 className="flex flex-row items-center text-primary hover:text-white"
               >
-                <BsStars className="mr-1" />
-                Donate
+                <Button variant="link">
+                  <BsStars className="mr-1" />
+                  Donate
+                </Button>
               </Link>
             </div>
           </div>

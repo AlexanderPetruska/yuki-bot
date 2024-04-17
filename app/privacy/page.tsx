@@ -9,12 +9,12 @@ const Privacy = () => {
           Effective Date: 4th day of July, 2024
         </p>
       </div>
-      <div className="container flex flex-col gap-8">
+      <div className=" flex flex-col gap-8">
         <div className="items-left flex w-full flex-col md:align-middle">
           <h2 className="text-left  font-bold text-primary md:max-w-2xl">
             Yuki collects the following information during its use:
           </h2>
-          <div className="ml-14">
+          <div className="ml-6">
             <ul className="list-disc pl-4 font-light">
               <li>Server IDs</li>
               <li>User IDs</li>
@@ -29,7 +29,7 @@ const Privacy = () => {
           <h2 className="font-bold text-primary md:max-w-2xl">
             What we collect and what we do with we do:
           </h2>
-          <div className="ml-14 ">
+          <div className="ml-6">
             <p className=" text-left font-light">
               Yuki stores the content of messages temporarily into memory when
               message logging is enabled to provide the differences between
@@ -46,7 +46,7 @@ const Privacy = () => {
           <h2 className="font-bold text-primary md:max-w-2xl">
             How we use the data collected:
           </h2>
-          <div className="ml-14">
+          <div className="ml-6">
             <p className=" text-left font-light">
               We use the data collected to provide, operate, and maintain Yuki.{" "}
               <span className="font-bold">
@@ -60,7 +60,7 @@ const Privacy = () => {
           <h2 className="font-bold text-primary md:max-w-2xl">
             How to remove your data:
           </h2>
-          <div className="ml-14">
+          <div className="ml-6">
             <p className=" text-lef font-light">
               We use the data collected to provide, operate, and maintain Yuki.
               <span className="font-bold">
@@ -69,7 +69,7 @@ const Privacy = () => {
                 removed within 72 hours (in case of an accidental remove).
                 <br /> <br />
                 You may also contact the maintainer at inyix (on discord) or by
-                email at inyixqwq@gmail.com.
+                email at inyixqwq@gmail.com.
               </span>
             </p>
           </div>
@@ -78,7 +78,7 @@ const Privacy = () => {
           <h2 className="font-bold text-primary md:max-w-2xl">
             How to remove your data:
           </h2>
-          <div className="ml-14">
+          <div className="ml-6">
             <p className=" text-left font-light">
               Where the data is processed{" "}
               <span className="font-bold">

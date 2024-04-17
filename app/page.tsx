@@ -16,7 +16,7 @@ export default function Home() {
           />
         </div>
         <div className="flex w-full flex-1 flex-col md:items-start">
-          <h1 className="mx-auto mb-4 max-w-[26rem] text-center text-3xl font-bold leading-snug md:max-w-full md:text-left md:text-5xl">
+          <h1 className="mx-auto mb-4 max-w-[30rem] text-center text-3xl font-bold leading-snug md:max-w-full md:text-left md:text-5xl">
             Best Trending Music Discord Bot
             <span className="text-primary"> Yuki </span>
           </h1>

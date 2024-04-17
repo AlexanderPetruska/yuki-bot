@@ -65,9 +65,9 @@ const Team = () => {
         <div className="mb-10 flex h-28 w-full max-w-72 flex-row items-center justify-start gap-6 rounded-xl bg-card p-5 md:h-64 md:w-52 md:flex-col md:rounded-3xl">
           <div className="flex justify-center align-top">
             <Image
-              src="/logo.png"
+              src="/thecodingguy-profile-pic.gif"
               alt="profile picture"
-              className="h-20 w-20  md:h-28 md:w-28"
+              className="h-20 w-20 rounded-full md:h-28 md:w-28"
               width={1000}
               height={1000}
             />
@@ -79,7 +79,7 @@ const Team = () => {
               <Link
                 target="_blank"
                 rel="noreferrer noopener"
-                href="/LINK TO DISCORD"
+                href="https://discord.com/users/222073294419918848"
               >
                 <FaDiscord className="h-6 w-6" size={0} />
               </Link>

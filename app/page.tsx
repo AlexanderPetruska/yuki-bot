@@ -34,7 +34,11 @@ export default function Home() {
             <Link target="_blank" rel="noreferrer noopener" href={oauthUrl}>
               <Button>Invite to server</Button>
             </Link>
-            <Link target="_blank" rel="noreferrer noopener" href="/todo">
+            <Link
+              target="_blank"
+              rel="noreferrer noopener"
+              href="https://discord.gg/vwZywKzMZu"
+            >
               <Button variant="outline">Support Server</Button>
             </Link>
           </div>

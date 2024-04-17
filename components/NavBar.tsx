@@ -49,7 +49,9 @@ const NavBar = () => {
                 <Button variant="link">Support</Button>
               </Link>
               <Link
-                href="/donate" // TODO: Link with 3rd party
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://ko-fi.com/yuki_bot"
                 className="flex flex-row items-center text-primary hover:text-white"
               >
                 <Button variant="link">

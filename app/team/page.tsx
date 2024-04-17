@@ -17,9 +17,9 @@ const Team = () => {
         <div className="flex h-28 w-full flex-row items-center justify-start gap-6 rounded-xl bg-card p-5 md:h-64 md:w-52 md:flex-col md:rounded-3xl">
           <div className="flex justify-center align-top">
             <Image
-              src="/logo.png"
+              src="/iny-profile-pic.png"
               alt="profile picture"
-              className="h-20 w-20 md:h-28 md:w-28"
+              className="h-20 w-20 rounded-full md:h-28 md:w-28"
               width={1000}
               height={1000}
             />
@@ -28,7 +28,7 @@ const Team = () => {
             <h2 className="font-bold md:font-black">iNy &lt;3</h2>
             <p className="text-xs font-light md:text-sm">Founder & Developer</p>
             <div className="flex flex-row md:justify-center">
-              <Link href="/LINK TO DISCORD">
+              <Link href="https://discord.com/users/256016352291061760">
                 <FaDiscord className="h-6 w-6" size={0} />
               </Link>
             </div>
@@ -37,18 +37,22 @@ const Team = () => {
         <div className="flex h-28 w-full max-w-72 flex-row items-center justify-start gap-6 rounded-xl bg-card p-5 md:h-64 md:w-52 md:flex-col md:rounded-3xl">
           <div className="flex justify-center align-top">
             <Image
-              src="/logo.png"
+              src="/sanikk-profile-pic.png"
               alt="profile picture"
-              className="h-20 w-20 md:h-28 md:w-28"
+              className="h-20 w-20 rounded-full  md:h-28 md:w-28"
               width={1000}
               height={1000}
             />
           </div>
           <div className="flex flex-col justify-start gap-2 md:text-center">
-            <h2 className="font-bold md:font-black">iNy &lt;3</h2>
-            <p className="text-xs font-light md:text-sm">Founder & Developer</p>
+            <h2 className="font-bold md:font-black">Sanikk</h2>
+            <p className="text-xs font-light md:text-sm">Web Developer</p>
             <div className="flex flex-row md:justify-center">
-              <Link href="/LINK TO DISCORD">
+              <Link
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://discord.com/users/440798905052037130"
+              >
                 <FaDiscord className="h-6 w-6" size={0} />
               </Link>
             </div>
@@ -59,14 +63,14 @@ const Team = () => {
             <Image
               src="/logo.png"
               alt="profile picture"
-              className="h-20 w-20 md:h-28 md:w-28"
+              className="h-20 w-20  md:h-28 md:w-28"
               width={1000}
               height={1000}
             />
           </div>
           <div className="flex flex-col justify-start gap-2 md:text-center">
-            <h2 className="font-bold md:font-black">iNy &lt;3</h2>
-            <p className="text-xs font-light md:text-sm">Founder & Developer</p>
+            <h2 className="font-bold md:font-black">TheCodingGuy</h2>
+            <p className="text-xs font-light md:text-sm">Developer</p>
             <div className="flex flex-row md:justify-center">
               <Link href="/LINK TO DISCORD">
                 <FaDiscord className="h-6 w-6" size={0} />

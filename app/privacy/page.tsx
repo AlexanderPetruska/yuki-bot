@@ -62,15 +62,12 @@ const Privacy = () => {
           </h2>
           <div className="ml-6">
             <p className=" text-lef font-light">
-              We use the data collected to provide, operate, and maintain Yuki.
-              <span className="font-bold">
-                When Yuki is removed from a server, any in-memory messages will
-                be immediately wiped and server settings will be automatically
-                removed within 72 hours (in case of an accidental remove).
-                <br /> <br />
-                You may also contact the maintainer at inyix (on discord) or by
-                email at inyixqwq@gmail.com.
-              </span>
+              When Yuki is removed from a server, any in-memory messages will be
+              immediately wiped and server settings will be automatically
+              removed within 72 hours (in case of an accidental remove).
+              <br /> <br />
+              You may also contact the maintainer at inyix (on discord) or by
+              email at inyixqwq@gmail.com.
             </p>
           </div>
         </div>

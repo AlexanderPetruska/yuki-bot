@@ -1,9 +1,9 @@
-const Terms = () => {
+const Temrs = () => {
   return (
     <main className="justify-top container flex h-full max-w-6xl flex-1 flex-col items-center gap-5">
       <div>
         <h1 className="mb-1 text-center text-3xl font-bold">
-          Terms of Service
+          Temrs of Service
         </h1>
         <p className="mb-10 max-w-80 overflow-auto text-center text-sm font-light text-gray-300 md:max-w-full">
           Effective Date: 4th day of July, 2024
@@ -62,15 +62,12 @@ const Terms = () => {
           </h2>
           <div className="ml-6">
             <p className=" text-lef font-light">
-              We use the data collected to provide, operate, and maintain Yuki.
-              <span className="font-bold">
-                When Yuki is removed from a server, any in-memory messages will
-                be immediately wiped and server settings will be automatically
-                removed within 72 hours (in case of an accidental remove).
-                <br /> <br />
-                You may also contact the maintainer at inyix (on discord) or by
-                email at inyixqwq@gmail.com.
-              </span>
+              When Yuki is removed from a server, any in-memory messages will be
+              immediately wiped and server settings will be automatically
+              removed within 72 hours (in case of an accidental remove).
+              <br /> <br />
+              You may also contact the maintainer at inyix (on discord) or by
+              email at inyixqwq@gmail.com.
             </p>
           </div>
         </div>
@@ -89,4 +86,4 @@ const Terms = () => {
   );
 };
 
-export default Terms;
+export default Temrs;

@@ -12,7 +12,7 @@ const Privacy = () => {
       <div className="flex flex-col gap-8">
         <div className="items-left flex w-full flex-col md:align-middle">
           <h2 className="text-left  font-black text-primary md:max-w-2xl">
-            Yuki collects the following information during its use:
+            YUKI COLLECTS THE FOLLOWING INFORMATION DURING ITS USE:
           </h2>
           <div className="ml-6">
             <ul className="list-disc pl-4 font-light">
@@ -27,7 +27,7 @@ const Privacy = () => {
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
           <h2 className="font-black text-primary md:max-w-2xl">
-            What we collect and what we do with we do:
+            WHAT WE COLLECT AND WHAT WE DO:
           </h2>
           <div className="ml-6 ">
             <p className=" text-left font-light">
@@ -44,7 +44,7 @@ const Privacy = () => {
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
           <h2 className="font-black text-primary md:max-w-2xl">
-            How we use the data collected:
+            HOW WE USE THE DATA COLLECTED:
           </h2>
           <div className="ml-6">
             <p className=" text-left font-light">
@@ -58,7 +58,7 @@ const Privacy = () => {
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
           <h2 className="font-black text-primary md:max-w-2xl">
-            How to remove your data:
+            HOW TO REMOVE YOUR DATA:
           </h2>
           <div className="ml-6">
             <p className=" text-lef font-light">
@@ -73,7 +73,7 @@ const Privacy = () => {
         </div>
         <div className="items-left mb-10 flex w-full flex-col md:align-middle">
           <h2 className="font-black text-primary md:max-w-2xl">
-            Where the data is processed
+            WHERE THE DATA IS PROCESSED
           </h2>
           <div className="ml-6">
             <p className=" text-left font-light">

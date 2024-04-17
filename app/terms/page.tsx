@@ -1,3 +1,6 @@
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+
 const Temrs = () => {
   return (
     <main className="justify-top container flex h-full max-w-6xl flex-1 flex-col items-center gap-5">
@@ -12,72 +15,132 @@ const Temrs = () => {
       <div className="flex flex-col gap-8">
         <div className="items-left flex w-full flex-col md:align-middle">
           <h2 className="text-left  font-black text-primary md:max-w-2xl">
-            Yuki collects the following information during its use:
+            INTRODUCTION
           </h2>
           <div className="ml-6">
             <ul className="list-disc pl-4 font-light">
-              <li>Server IDs</li>
-              <li>User IDs</li>
-              <li>Channel IDs</li>
-              <li>Message IDs</li>
-              <li>Custom settings for a server (like logging)</li>
-              <li>Message content (if logging is enabled on the server)</li>
+              Thanks for choosing Yuki Network (&quot;we&quot;, &quot;us&quot;,
+              &quot;our&quot;, &quot;Network&quot;). These Terms of Service
+              (collectively, the &quot;Terms&quot;) outline the rules and
+              regulations for the use of Our Services (including, but not
+              limited to, &quot;Yuki Network&quot;, &quot;Neko Maid Cafe
+              Discord&quot;). By using Our Services you implicitly agree to our
+              terms. You may stop using the service at any time if you no longer
+              agree to these terms. Some of Our Services require an agreement to
+              another Terms of Services, and you agree to follow those Terms of
+              Service along with our terms.
             </ul>
           </div>
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
-          <h2 className="font-black text-primary md:max-w-2xl">
-            What we collect and what we do with we do:
-          </h2>
+          <h2 className="font-black text-primary md:max-w-2xl">YOUR PRIVACY</h2>
           <div className="ml-6 ">
             <p className=" text-left font-light">
-              Yuki stores the content of messages temporarily into memory when
-              message logging is enabled to provide the differences between
-              edited messages and show the content of deleted messages. This
-              also includes the Message ID, Channel ID, and Server ID of any
-              edited and deleted message. For instance, if a message is deleted,
-              Yuki will run through and log the contents to the logging channel
-              (where enabled), and will immediately remove the message
-              information (Message ID, Message content, etc.) from memory.
+              Your privacy does mater and we are committed to that. These Terms,
+              together with our{" "}
+              <Link href="/privacy">
+                <Button variant="link" className="m-0 p-0 text-primary">
+                  Privacy Policy
+                </Button>
+              </Link>
+              , and any individual policies of any of the Services, constitute
+              the whole agreement between you and the Company regrading the use
+              of any of the Services, and completely replace any prior
+              agreements between you and the Company relating to your use of any
+              of the Services.
             </p>
           </div>
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
           <h2 className="font-black text-primary md:max-w-2xl">
-            How we use the data collected:
+            RULES TO YUKI NETWORK
           </h2>
           <div className="ml-6">
-            <p className=" text-left font-light">
-              We use the data collected to provide, operate, and maintain Yuki.{" "}
+            <p>
+              Any actions performed to gain an unfair advantage over other users
+              are explicitly against the rules. This includes but is not limited
+              to:
+              <ul className="list-disc pl-10 font-light">
+                <li>
+                  <span className="font-bold">Using macros, scripts, etc.</span>
+                </li>
+                <li>
+                  <span className="font-bold"> Using multiple accounts.</span>
+                </li>
+                <li>
+                  <span className="font-bold">
+                    Trading any items within the Service outside of the Service
+                    itself.
+                  </span>
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div className="items-left flex w-full flex-col md:align-middle">
+          <h2 className="font-black text-primary md:max-w-2xl">
+            YOUR RESPONSIBILITY
+          </h2>
+          <div className="ml-6">
+            <p className=" text-lef font-light">
+              We know things happen, however you automatically assume full
+              responsibility for any actions that is done on your account.
+              <br />
+              <br />
               <span className="font-bold">
-                WE DO NOT SHARE ANY DATA WITH THIRD PARTIES. WE DO NOT SELL YOUR
-                DATA.
+                Do not share your Discord account credentials or allow any form
+                of access to your Discord account that may result in violation
+                of the rules.
               </span>
             </p>
           </div>
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
           <h2 className="font-black text-primary md:max-w-2xl">
-            How to remove your data:
+            ANALYTICAL DATA
           </h2>
           <div className="ml-6">
-            <p className=" text-lef font-light">
-              When Yuki is removed from a server, any in-memory messages will be
-              immediately wiped and server settings will be automatically
-              removed within 72 hours (in case of an accidental remove).
-              <br /> <br />
-              You may also contact the maintainer at inyix (on discord) or by
-              email at inyixqwq@gmail.com.
+            <p>
+              Some of our Services will collect analytical data for the sole
+              purporse of error tracking, usage information, and how the Service
+              can be improved. To access or delete your data, please visit the{" "}
+              <Link href="/privacy">
+                <Button variant="link" className="m-0 p-0 text-primary">
+                  Privacy Policy
+                </Button>
+              </Link>
+              .
+            </p>
+          </div>
+        </div>
+        <div className="items-left flex w-full flex-col md:align-middle">
+          <h2 className="font-black text-primary md:max-w-2xl">TERMINATION</h2>
+          <div className="ml-6">
+            <p>
+              If a breach of these rules is suspected any and all users
+              associated with the rule(s) violation may result in any account(s)
+              created on this bot terminated and/or blacklist from any of our
+              Services. All provisions of the Terms which by their nature should
+              survive termination shall survive termination, including, without
+              limitation, ownership provisions, warranty disclaimers, indemnity
+              and limitations of liability. Following termination, you must
+              discontinue all forms of use on such Service or Services.
             </p>
           </div>
         </div>
         <div className="items-left mb-10 flex w-full flex-col md:align-middle">
           <h2 className="font-black text-primary md:max-w-2xl">
-            Where the data is processed
+            OTHER THERMS AND CONDITIONS
           </h2>
           <div className="ml-6">
-            <p className=" text-left font-light">
-              The data collected will be processed in United States of America.
+            <p>
+              We reserve the right to update or modify these Terms at any time
+              without prior notice. Please review these Terms periodically, and
+              especially before you access, interact, or by any way, shape, or
+              form utilize the Services. These Terms were last updated on the
+              date indicated at the top of this document. Your continued use of
+              any of the Services after any changes or revisions shall indicate
+              your agreement with the terms of revised Terms.
             </p>
           </div>
         </div>

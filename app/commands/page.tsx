@@ -3,7 +3,7 @@ const Commands = () => {
     <main className="flex flex-col items-center justify-center gap-4">
       <div>
         <h1 className="text-center text-3xl font-bold">
-          Commands List <span className="text-center text-primary">9</span>
+          Commands List <span className="text-center text-primary">(9)</span>
         </h1>
         <p className="container mb-10 overflow-auto text-sm font-extralight text-gray-400">
           Here you can find all the commands what you can use!
@@ -73,7 +73,7 @@ const Commands = () => {
           Stats about Yuki
         </div>
       </div>
-      <div className="flex h-14 w-full max-w-xs flex-row items-center justify-between rounded-full bg-card p-5 md:h-24 md:max-w-2xl md:flex-col md:items-start md:rounded-3xl">
+      <div className="mb-10 flex h-14 w-full max-w-xs flex-row items-center justify-between rounded-full bg-card p-5 md:h-24 md:max-w-2xl md:flex-col md:items-start md:rounded-3xl">
         <div className="font-bold">
           <span className="text-gray-500">/</span> eval
         </div>

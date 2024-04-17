@@ -1,17 +1,17 @@
-const Privacy = () => {
+const Terms = () => {
   return (
     <main className="justify-top container flex h-full max-w-6xl flex-1 flex-col items-center gap-5">
       <div>
         <h1 className="mb-1 text-center text-3xl font-bold">
-          Privacy and Policy
+          Terms of Service
         </h1>
-        <p className="container mb-10 max-w-80 overflow-auto text-center text-sm font-light text-gray-300 md:max-w-full">
+        <p className="mb-10 max-w-80 overflow-auto text-center text-sm font-light text-gray-300 md:max-w-full">
           Effective Date: 4th day of July, 2024
         </p>
       </div>
-      <div className=" flex flex-col gap-8">
+      <div className="flex flex-col gap-8">
         <div className="items-left flex w-full flex-col md:align-middle">
-          <h2 className="text-left  font-bold text-primary md:max-w-2xl">
+          <h2 className="text-left  font-black text-primary md:max-w-2xl">
             Yuki collects the following information during its use:
           </h2>
           <div className="ml-6">
@@ -26,10 +26,10 @@ const Privacy = () => {
           </div>
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
-          <h2 className="font-bold text-primary md:max-w-2xl">
+          <h2 className="font-black text-primary md:max-w-2xl">
             What we collect and what we do with we do:
           </h2>
-          <div className="ml-6">
+          <div className="ml-6 ">
             <p className=" text-left font-light">
               Yuki stores the content of messages temporarily into memory when
               message logging is enabled to provide the differences between
@@ -43,7 +43,7 @@ const Privacy = () => {
           </div>
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
-          <h2 className="font-bold text-primary md:max-w-2xl">
+          <h2 className="font-black text-primary md:max-w-2xl">
             How we use the data collected:
           </h2>
           <div className="ml-6">
@@ -57,7 +57,7 @@ const Privacy = () => {
           </div>
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
-          <h2 className="font-bold text-primary md:max-w-2xl">
+          <h2 className="font-black text-primary md:max-w-2xl">
             How to remove your data:
           </h2>
           <div className="ml-6">
@@ -75,16 +75,12 @@ const Privacy = () => {
           </div>
         </div>
         <div className="items-left flex w-full flex-col md:align-middle">
-          <h2 className="font-bold text-primary md:max-w-2xl">
-            How to remove your data:
+          <h2 className="font-black text-primary md:max-w-2xl">
+            Where the data is processed
           </h2>
           <div className="ml-6">
             <p className=" text-left font-light">
-              Where the data is processed{" "}
-              <span className="font-bold">
-                The data collected will be processed in United States of
-                America.
-              </span>
+              The data collected will be processed in United States of America.
             </p>
           </div>
         </div>
@@ -93,4 +89,4 @@ const Privacy = () => {
   );
 };
 
-export default Privacy;
+export default Terms;

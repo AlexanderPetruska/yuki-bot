@@ -19,13 +19,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-background">
-      <Head>
+      <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head>
+        <link
+          rel="apple-touch-icon"
+          href="/apple-touch-icon.png"
+          type="image/png"
+          sizes="any"
+        />
+      </head>
       <body className={inter.className + ""}>
         <div className="flex min-h-dvh flex-col gap-7 md:gap-14">
           <NavBar />
-          <div className="w-full flex-1">{children}</div>
+          <div className="flex w-full flex-1 items-center justify-center">
+            {children}
+          </div>
           <Footer />
         </div>
       </body>

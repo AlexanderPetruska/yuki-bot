@@ -1,6 +1,6 @@
 const Privacy = () => {
   return (
-    <main className="justify-top container flex h-full max-w-6xl flex-1 flex-col items-center gap-5">
+    <main className="justify-top container flex h-full max-w-6xl flex-1 flex-col items-center gap-5 bg-background">
       <div>
         <h1 className="mb-1 text-center text-3xl font-bold">
           Privacy and Policy

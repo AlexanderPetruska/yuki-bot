@@ -4,7 +4,7 @@ import { FaDiscord } from "react-icons/fa6";
 
 const Team = () => {
   return (
-    <main className="flex flex-col items-center justify-center gap-4">
+    <main className="flex flex-col items-center justify-center gap-4 bg-background">
       <div>
         <h1 className="mb-1 text-center text-3xl font-bold">
           Meet our <span className="text-center text-primary">Team</span>

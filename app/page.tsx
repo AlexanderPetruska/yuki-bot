@@ -8,7 +8,7 @@ export default function Home() {
   const oauthUrl = `https://discord.com/api/oauth2/authorize?client_id=${clientId}&scope=bot`;
 
   return (
-    <main className="container flex h-full max-w-6xl flex-1 flex-col items-center justify-center gap-5 align-middle md:flex-row">
+    <main className="container flex h-full max-w-6xl flex-1 flex-col items-center justify-center gap-5 bg-background align-middle md:flex-row">
       <div className=" flex flex-1 flex-col items-end justify-center gap-5 align-middle">
         <div className="flex w-full flex-1 items-center justify-center align-middle">
           <Image

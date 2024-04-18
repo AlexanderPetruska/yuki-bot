@@ -1,6 +1,6 @@
 const Commands = () => {
   return (
-    <main className="flex flex-col items-center justify-center gap-4">
+    <main className="flex flex-col items-center justify-center gap-4 bg-background">
       <div>
         <h1 className="mb-1 text-center text-3xl font-bold">
           Commands List <span className="text-center text-primary">(9)</span>

@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Yuki Bot",
   description: "Best discord music bot - Yuki",
+  // metadata
 };
 
 export default function RootLayout({

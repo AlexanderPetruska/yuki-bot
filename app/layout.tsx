@@ -20,15 +20,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-background">
-      <head>
+      <Head>
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon_io/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon_io/favicon-16x16.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/favicon_io/apple-touch-icon.png"
+        />
+        <link rel="shortcut icon" href="/favicon_io/favicon.ico" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="apple-touch-icon"
-          href="/apple-touch-icon.png"
+          href="/favicon_io/apple-touch-icon.png"
           type="image/png"
           sizes="any"
         />
-      </head>
+      </Head>
       <body className={inter.className + ""}>
         <div className="flex min-h-dvh flex-col gap-7 md:gap-14">
           <NavBar />

@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="flex h-dvh flex-col gap-7 md:h-svh md:gap-14">
           <NavBar />
-          <div className="h-full w-full flex-1">{children}</div>
+          <div className="w-full flex-1">{children}</div>
           <Footer />
         </div>
       </body>

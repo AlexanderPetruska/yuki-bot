@@ -38,7 +38,7 @@ export default function RootLayout({
           sizes="180x180"
           href="/favicon_io/apple-touch-icon.png"
         />
-        <link rel="shortcut icon" href="/favicon_io/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link
           rel="apple-touch-icon"

@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-background">
-      <body className={inter.className}>
-        <div className="flex h-dvh flex-col gap-7 md:h-svh md:gap-14">
+      <body className={inter.className + ""}>
+        <div className="flex min-h-dvh flex-col gap-7 md:gap-14">
           <NavBar />
           <div className="w-full flex-1">{children}</div>
           <Footer />
